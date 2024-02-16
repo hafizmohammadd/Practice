@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rejistration form </title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form>
+        Name: <input type="name" placeholder="Name" required>
+        <br>
+        <br>
+        Father Name: <input type="text" placeholder=" Father Name" required>
+        <br>
+        <br>
+        Passward: <input type="password" placeholder="Passward" required>
+        <br>
+        <br>
+        Bio:<textarea name="bio" id="" cols="40" rows="5"></textarea>
+        <br>
+        <br>
+        <fieldset>
+           <legend> Gender</legend>
+            <input type="radio" name="Gender" id="Male">Male <br>
+            <input type="radio" name="Gender" id="Female">Female <br>
+            <input type="radio" name="Gender" id="Other">Other
+        </fieldset>
+        <fieldset>
+            <legend>Intersests:</legend>
+            <input type="checkbox" name="Intersests" id="Music">Music
+            <input type="checkbox" name="Intersests" id="Sport">Sport
+            <input type="checkbox" name="Intersests" id="Reading">Reading
+        </fieldset>
+        <br>
+       Country Name <select name="Country name" id="Country name">
+       <option value="Pakistan">Pakistan</option>
+       <option value="India">India</option>
+       <option value="Dubai">Dubai</option>
+       </select>
+
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
